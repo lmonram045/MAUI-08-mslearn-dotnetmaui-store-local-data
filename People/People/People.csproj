@@ -48,4 +48,10 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+
+	<ItemGroup>
+	  <PackageReference Include="sqlite-net-pcl" Version="1.9.141-beta" />
+	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.5" />
+	</ItemGroup>
+
 </Project>
